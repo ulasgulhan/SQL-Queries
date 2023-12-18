@@ -16,3 +16,4 @@ from dbo.Orders
 left join dbo.Customers on dbo.Orders.CustomerID = dbo.Customers.CustomerID
 left join dbo.Employees on dbo.Orders.EmployeeID = dbo.Employees.EmployeeID
 left join dbo.[Order Details] on dbo.Orders.OrderID = dbo.[Order Details].OrderID
+where UnitPrice > 15
