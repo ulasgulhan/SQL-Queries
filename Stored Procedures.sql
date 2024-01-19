@@ -1,6 +1,3 @@
---Stored Procedures(Saklý Yordam)
---Stored Procedure'ler server tarafýnda tutulan, bir kez derlendikten sonra tekrar derlemeyen sorgulardýr. 
---Client'lar prosedurü çaðrýrken kendi bilgisayarlarýnda deðil server tarafýndan yapýlacak olan iþlemlerin sonucunu bekler.
 --Stored Procedures
 --Stored Procedures are queries held on the server side that are compiled once and do not need recompilation.
 --When clients call the procedure, they expect the result of the operations to be performed on the server, not on their own computers.
@@ -257,9 +254,9 @@ CREATE TABLE URUN1
 
 insert into URUN1(Adi,Fiyati,StokMiktari) 
 VALUES 
-('A Ürünü',750,10),
-('B Ürünü',750,20),
-('C Ürünü',750,30)
+('A ÃœrÃ¼nÃ¼',750,10),
+('B ÃœrÃ¼nÃ¼',750,20),
+('C ÃœrÃ¼nÃ¼',750,30)
 
 select * from URUN1
 
@@ -317,10 +314,10 @@ add Email nvarchar(50)
 
 insert Kullanicilar(Adi,Soyadi,KullaniciAdi,Sifre,Yasi,Email)
 values
-('Ekrem','Keleþ','ekeles','123',27,'ekeles@hotmail.com'),
-('Ekrem2','Keleþ2','ekeles2','12345',28,'ekeles2@gmail.com'),
-('Osman','Türker','oturker','12',78,'oturker@yahoo.com'),
-('Test','Testoðlu','testo','1234',56,'testo@testo.com')
+('Ekrem','KeleÃ¾','ekeles','123',27,'ekeles@hotmail.com'),
+('Ekrem2','KeleÃ¾2','ekeles2','12345',28,'ekeles2@gmail.com'),
+('Osman','TÃ¼rker','oturker','12',78,'oturker@yahoo.com'),
+('Test','TestoÃ°lu','testo','1234',56,'testo@testo.com')
 
 
 
